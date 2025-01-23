@@ -8,23 +8,27 @@ body {
 header {
     background-color: #282828;
     color: whitesmoke;
+}
+
+.logo {
     font-style: 18px;
     font-weight: 700;
 }
 
 ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
     padding: 25px;
     margin:0;
+    gap: 10px;
 }
 
-.navigation {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;;
+li {
+    cursor: pointer;
 }
 
-li img {
-    margin-left: 5px;
+.icon {
     width: 25px;
 }
 
@@ -36,6 +40,10 @@ h1 {
     margin: 30px 25px;
 }
 
-p {
+.item-img{
+    width: 100%;
+}
+
+caption {
     margin: 0 25px;
 }
