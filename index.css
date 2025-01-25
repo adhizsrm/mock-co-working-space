@@ -61,8 +61,10 @@ h1 {
     margin-left: auto;
 }
 
-caption {
+.caption {
+    display: flex;
     margin: 0 25px;
+    gap: 20px;
 }
 
 button {
