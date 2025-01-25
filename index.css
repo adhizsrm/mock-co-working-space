@@ -33,21 +33,43 @@ li {
 }
 
 
-/* section */
+/* section - 1 */
 h1 {
     font-size: 40px;
     font-weight: 400;
     margin: 30px 25px;
 }
 
+/* section - 2*/
 .item-img{
     width: 100%;
 }
 
+.item {
+    position: relative;
+}
+
+.img-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px;
+}
 .align-right {
     margin-left: auto;
 }
 
 caption {
     margin: 0 25px;
+}
+
+button {
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
 }
