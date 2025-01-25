@@ -44,6 +44,10 @@ h1 {
     width: 100%;
 }
 
+.align-right {
+    margin-left: auto;
+}
+
 caption {
     margin: 0 25px;
 }
