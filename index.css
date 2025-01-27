@@ -69,10 +69,31 @@ h1 {
 }
 
 button {
+    /*margin: auto;*/
+    align-self: center;
     background-color: #cd6858;
     color: whitesmoke;
     padding: 10px 15px;
     font-weight: 700;
     border: none;
     cursor: pointer;
+}
+
+.chatbox-bg {
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+    display: flex;
+    flex-direction: column;
+    background-color: #dda15e;
+    width: 45px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+}
+
+.chatbox-img {
+    width: 50%;
+    margin: auto;
 }
